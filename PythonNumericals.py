@@ -32,8 +32,8 @@ fiboNum = 9
 print("The fibonacci series of number",fiboNum)
 print(recursiveFibo(fiboNum))
 
-for i in fiboNum:
-    print(recursiveFibo(fiboNum))
+for i in range(fiboNum+1):
+    print(recursiveFibo(i))
 
 
 
